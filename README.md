@@ -6,15 +6,13 @@
 
 ![Tools](https://img.shields.io/badge/tools-24-6366f1?style=for-the-badge)
 [![Categories](https://img.shields.io/badge/categories-4-0ea5e9?style=for-the-badge)](#contents)
-[![Combined stars](https://img.shields.io/badge/combined_stars-124.5k-f59e0b?style=for-the-badge&logo=github)](#-leaderboard)
+[![Combined stars](https://img.shields.io/badge/combined_stars-174.3k-f59e0b?style=for-the-badge&logo=github)](#-leaderboard)
 [![Stars](https://img.shields.io/github/stars/EdisonTKPcom/Awesome-Craft-CUDA?style=for-the-badge&color=22c55e)](https://github.com/EdisonTKPcom/Awesome-Craft-CUDA/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/EdisonTKPcom/Awesome-Craft-CUDA?style=for-the-badge&color=ec4899)](https://github.com/EdisonTKPcom/Awesome-Craft-CUDA/commits/main)
 
 </div>
 
 The NVIDIA CUDA Toolkit is proprietary. nvcc, CUDA-GDB, Nsight, cuBLAS, cuDNN and most official NVIDIA developer tools are distributed under NVIDIA's EULA, not an OSI licence. Open-source CUDA libraries often still need that toolkit to build or run. Portability projects are not automatically drop-in replacements for CUDA. This list repeats a drop-in claim only when the project's own documentation uses that wording, and then only with coverage caveats. SCALE by Spectral Compute is not listed as open source: its free licence is limited to non-commercial use.
-
-Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft), [Awesome Craft AI](https://github.com/EdisonTKPcom/Awesome-Craft-AI).
 
 ## Contents
 
@@ -23,6 +21,8 @@ Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft), [
 - [Kernel and GPU libraries](#kernel-and-gpu-libraries)
 - [Tooling and samples](#tooling-and-samples)
 - [Portability and other programming models](#portability-and-other-programming-models)
+- [Related lists](#related-lists)
+- [Star history](#star-history)
 
 ## Dashboard
 
@@ -30,14 +30,16 @@ Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft), [
 <tr>
 <td align="center"><h2>24</h2>listed projects</td>
 <td align="center"><h2>4</h2>categories</td>
-<td align="center"><h2>124.5k</h2>combined GitHub stars</td>
-<td align="center"><h2>20.6k</h2>combined forks</td>
-<td align="center"><h2>12/14</h2>pushed in the last 30 days</td>
-<td align="center"><h2>6</h2>languages</td>
+<td align="center"><h2>174.3k</h2>combined GitHub stars</td>
+<td align="center"><h2>26.7k</h2>combined forks</td>
+<td align="center"><h2>18/24</h2>pushed in the last 30 days</td>
+<td align="center"><h2>9</h2>languages</td>
 </tr>
 </table>
 
-Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted repositories only. Official documentation and other non-GitHub entries are listed but have no stars, forks or push dates. Star badges next to GitHub entries update live.
+**FACT** (snapshot taken 2026-11-15, GitHub API): 24 listed projects, 24 of them on GitHub with public repository statistics. Official documentation and other non-GitHub entries are listed but have no stars, forks or push dates.
+
+**ESTIMATE**: 174.3k combined GitHub stars and 26.7k combined forks, summed from those API counts on the snapshot date. Live star badges next to GitHub entries may differ.
 
 ### 🏆 Leaderboard
 
@@ -47,12 +49,12 @@ Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted reposi
 <tr><td align="center">🥈</td><td><b>Triton</b></td><td>GPU kernel language</td><td align="right">20.6k</td><td><code>████████████████</code></td></tr>
 <tr><td align="center">🥉</td><td><b>ZLUDA</b></td><td>CUDA on other GPUs</td><td align="right">15.2k</td><td><code>████████████</code></td></tr>
 <tr><td align="center">4</td><td><b>Apache TVM</b></td><td>ML compiler</td><td align="right">13.9k</td><td><code>███████████</code></td></tr>
-<tr><td align="center">5</td><td><b>CuPy</b></td><td>Python arrays</td><td align="right">12.4k</td><td><code>██████████</code></td></tr>
-<tr><td align="center">6</td><td><b>CUTLASS</b></td><td>GEMM templates</td><td align="right">10.7k</td><td><code>████████</code></td></tr>
-<tr><td align="center">7</td><td><b>NVIDIA CUDA Samples</b></td><td>Official samples</td><td align="right">9.8k</td><td><code>████████</code></td></tr>
-<tr><td align="center">8</td><td><b>NCCL</b></td><td>Collective comms</td><td align="right">5.2k</td><td><code>████</code></td></tr>
-<tr><td align="center">9</td><td><b>ThunderKittens</b></td><td>CUDA kernel primitives</td><td align="right">3.8k</td><td><code>███</code></td></tr>
-<tr><td align="center">10</td><td><b>CUDA Python</b></td><td>Python bindings</td><td align="right">3.4k</td><td><code>███</code></td></tr>
+<tr><td align="center">5</td><td><b>GPU Puzzles</b></td><td>Tutorial</td><td align="right">12.6k</td><td><code>██████████</code></td></tr>
+<tr><td align="center">6</td><td><b>CuPy</b></td><td>Python arrays</td><td align="right">12.4k</td><td><code>██████████</code></td></tr>
+<tr><td align="center">7</td><td><b>Numba</b></td><td>Python JIT</td><td align="right">11.2k</td><td><code>█████████</code></td></tr>
+<tr><td align="center">8</td><td><b>CUTLASS</b></td><td>GEMM templates</td><td align="right">10.7k</td><td><code>████████</code></td></tr>
+<tr><td align="center">9</td><td><b>NVIDIA CUDA Samples</b></td><td>Official samples</td><td align="right">9.8k</td><td><code>████████</code></td></tr>
+<tr><td align="center">10</td><td><b>GPU MODE lectures</b></td><td>Lectures</td><td align="right">7.0k</td><td><code>██████</code></td></tr>
 </table>
 
 
@@ -61,15 +63,15 @@ Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted reposi
 ```mermaid
 pie showData
     title Combined GitHub stars by category
-    "Learning material" : 9769
-    "Kernel and GPU libraries" : 78245
-    "Tooling and samples" : 0
-    "Portability and other programming models" : 36512
+    "Learning material" : 29325
+    "Kernel and GPU libraries" : 96761
+    "Tooling and samples" : 945
+    "Portability and other programming models" : 47247
 ```
 
 ### Licences
 
-![Custom](https://img.shields.io/badge/Custom-6-64748b?style=flat-square) ![MIT](https://img.shields.io/badge/MIT-4-64748b?style=flat-square) ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-3-64748b?style=flat-square) ![BSD-3-Clause](https://img.shields.io/badge/BSD--3--Clause-1-64748b?style=flat-square)
+![Custom](https://img.shields.io/badge/Custom-10-64748b?style=flat-square) ![MIT](https://img.shields.io/badge/MIT-6-64748b?style=flat-square) ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-5-64748b?style=flat-square) ![BSD-2-Clause](https://img.shields.io/badge/BSD--2--Clause-2-64748b?style=flat-square) ![BSD-3-Clause](https://img.shields.io/badge/BSD--3--Clause-1-64748b?style=flat-square)
 
 "Custom" or "None" means GitHub could not match a standard SPDX licence, often because of extra terms or an undeclared licence. Read the project licence before you use it commercially.
 
@@ -108,6 +110,28 @@ pie showData
 - [ROCm](https://github.com/ROCm/ROCm) - AMD open GPU software stack of compilers, runtimes and libraries with mixed licences. It is the usual home for HIP on AMD hardware, not a CUDA Toolkit substitute on NVIDIA hardware. ![Stars](https://img.shields.io/github/stars/ROCm/ROCm?style=flat-square&label=%E2%AD%90)
 - [Triton](https://github.com/triton-lang/triton) - A language and compiler for writing tiled GPU kernels at a higher level than raw CUDA C++. Triton is a different programming model, not a source-compatible replacement for nvcc. ![Stars](https://img.shields.io/github/stars/triton-lang/triton?style=flat-square&label=%E2%AD%90)
 - [ZLUDA](https://github.com/vosen/ZLUDA) - A project whose README describes it as a drop-in replacement for running unmodified CUDA applications on non-NVIDIA GPUs. That wording is the project's claim; it is unofficial, architecture coverage is incomplete, and it is not a licence to the CUDA Toolkit. ![Stars](https://img.shields.io/github/stars/vosen/ZLUDA?style=flat-square&label=%E2%AD%90)
+
+## Related lists
+
+Other lists in the Awesome Craft series:
+
+- [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft) - A curated list of open-source, self-hostable alternatives to popular SaaS tools.
+- [Awesome Craft Agents](https://github.com/EdisonTKPcom/Awesome-Craft-Agents) - A curated list of open-source chat apps, coding agents, self-hosted agent bots, workflow automation and image-generation UIs.
+- [Awesome Craft AI](https://github.com/EdisonTKPcom/Awesome-Craft-AI) - A curated list of open-source, self-hostable AI runtimes, servers, Hugging Face libraries and related infrastructure.
+- [Awesome Craft BSC](https://github.com/EdisonTKPcom/Awesome-Craft-BSC) - A curated list of verified open-source clients, SDKs, dev tools and protocol code for BNB Smart Chain and opBNB.
+- [Awesome Craft DeepSeek](https://github.com/EdisonTKPcom/Awesome-Craft-DeepSeek) - A curated list of official DeepSeek repositories and open-source harnesses, serving engines, eval tools and fine-tuning stacks that work with DeepSeek models.
+- [Awesome Craft DevOps](https://github.com/EdisonTKPcom/Awesome-Craft-DevOps) - A curated list of open-source, self-hostable alternatives to popular DevOps and hosting SaaS tools.
+- [Awesome Craft Ethereum](https://github.com/EdisonTKPcom/Awesome-Craft-Ethereum) - A curated list of verified open-source Ethereum clients, SDKs, dev frameworks, wallets and security tools.
+- [Awesome Craft EV](https://github.com/EdisonTKPcom/Awesome-Craft-EV) - A curated list of open-source software and hardware for electric vehicles and charging.
+- [Awesome Craft Hardware](https://github.com/EdisonTKPcom/Awesome-Craft-Hardware) - A curated list of open-source tools for PCB, FPGA, ASIC and chip design.
+- [Awesome Craft Hyperliquid](https://github.com/EdisonTKPcom/Awesome-Craft-Hyperliquid) - A curated list of verified open-source SDKs, node tools, analytics and community libraries for the Hyperliquid ecosystem.
+- [Awesome Craft Malaysia](https://github.com/EdisonTKPcom/Awesome-Craft-Malaysia) - A curated list of open-source tools useful to Malaysian SMEs, with verified MyInvois support called out separately.
+- [Awesome Craft Solana](https://github.com/EdisonTKPcom/Awesome-Craft-Solana) - A curated list of verified open-source Solana clients, SDKs, frameworks, explorers and program libraries.
+- [Awesome Craft Web3](https://github.com/EdisonTKPcom/Awesome-Craft-Web3) - A curated list of open-source DEX protocol code, self-custody software, indexers, frameworks and Blockchain infrastructure.
+
+## Star history
+
+[![Star History Chart](https://api.star-history.com/chart?repos=EdisonTKPcom/Awesome-Craft-CUDA&amp;type=Date)](https://www.star-history.com/#EdisonTKPcom/Awesome-Craft-CUDA&Date)
 
 ## Contributing
 
